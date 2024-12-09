@@ -35,4 +35,4 @@ if (MSVC)
     add_definitions(-bigobj)
 endif()
 
-chaste_do_component(SurfacePottsModelLite)
+chaste_do_project(SurfacePottsModelLite)
